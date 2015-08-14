@@ -1,0 +1,55 @@
+8
+
+dir
+228
+svn://jamy/diyshirt/code/diyshirt/src
+svn://jamy/diyshirt
+
+
+
+2008-06-23T03:10:55.265625Z
+228
+huanglx
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b841bbb2-7d50-0244-8716-7d4dbc107ed2
+
+log4j.lcf
+file
+
+
+
+
+2008-07-02T06:29:28.000000Z
+05f1db3d82d9f041b1776de32a1428c9
+2008-04-23T07:20:02.593750Z
+77
+lixb
+
+diyshirt.conf
+file
+229
+
+
+
+2008-07-07T07:04:00.000000Z
+c0caa367d031f8e15bdece0717678c5b
+2008-07-09T06:59:31.484375Z
+229
+huanglx
+
+com
+dir
+

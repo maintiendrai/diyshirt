@@ -1,0 +1,27 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>无标题文档</title>
+<link href="/diyshirt/css/index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<table width="70%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><img src="/diyshirt/image/index_1.gif" width="92" height="92" alt="" /></td>
+    <td><table width="700" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td height="50" class="down"><div align="center">对本站有任何建议、意见或投诉，请点这里在线提交 客户服务邮箱：lixiaobin0030@163.com<br/>
+          欢迎友情链接以及网站合作，联系QQ：477060531
+        </div></td>
+      </tr>
+      <tr>
+        <td height="43" class="down2"><div align="center">文化衫网 本系统由<font color="red">李晓斌</font>与<font color="red">黄麟兴</font>共同开发</div></td>
+      </tr>
+    </table></td>
+    <td><img src="/diyshirt/image/index_2.gif" width="92" height="92" alt="" /></td>
+  </tr>
+</table>
+</body>
+</html>

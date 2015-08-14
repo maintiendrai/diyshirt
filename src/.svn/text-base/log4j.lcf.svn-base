@@ -1,0 +1,16 @@
+log4j.rootLogger=DEBUG
+
+#diyshirt
+log4j.logger.diyshirt=DEBUG,diyshirt
+log4j.additivity.diyshirt=false
+
+log4j.appender.stdout=org.apache.log4j.ConsoleAppender
+log4j.appender.stdout.layout=org.apache.log4j.PatternLayout
+log4j.appender.stdout.layout.ConversionPattern=%-5p [%t] %37c %3x - %m%n
+
+#diyshirt
+log4j.appender.diyshirt=org.apache.log4j.DailyRollingFileAppender
+log4j.appender.diyshirt.file=../webapps/diyshirt/WEB-INF/logs/diyshirt.log
+log4j.appender.diyshirt.DatePattern='.'yyyy-MM-dd
+log4j.appender.diyshirt.layout=org.apache.log4j.PatternLayout
+log4j.appender.diyshirt.layout.ConversionPattern=%-5p %d{yyyy-MM-dd HH:mm:ss} %l%n%m%n

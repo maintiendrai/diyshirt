@@ -1,0 +1,73 @@
+8
+
+dir
+228
+svn://jamy/diyshirt/code/diyshirt/WebRoot/WEB-INF
+svn://jamy/diyshirt
+
+
+
+2008-05-26T02:50:05.667000Z
+155
+lixb
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+b841bbb2-7d50-0244-8716-7d4dbc107ed2
+
+logs
+dir
+
+lib
+dir
+
+dwr.xml
+file
+
+
+
+
+2008-07-02T06:29:20.000000Z
+8c82eaab5ab48793a84bd25c579b369b
+2008-04-09T08:03:45.265625Z
+4
+jamy
+
+FCKeditor.tld
+file
+
+
+
+
+2008-07-02T06:29:20.000000Z
+8499c4b0c49041473f7162f88fda8d6f
+2008-04-09T08:03:45.265625Z
+4
+jamy
+
+web.xml
+file
+236
+
+
+
+2008-07-10T01:16:36.000000Z
+4876ca82a33c9df1557140afbd6a8de4
+2008-07-11T06:45:56.474729Z
+236
+huanglx
+
+classes
+dir
+

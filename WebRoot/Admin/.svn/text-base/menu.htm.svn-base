@@ -1,0 +1,49 @@
+<html>
+
+<head>
+<script type="text/javascript" src="dtree.js"></script>
+<link rel="styleSheet" href="dtree.css" type="text/css" />
+<link rel="stylesheet" type="text/css" href="global.css">
+<meta http-equiv="Content-Type" content="text/html; charset=gbk">
+</head>
+
+<body>
+
+<div id="contentborder">
+	<hr style="HEIGHT: 2px;COLOR:#BED3DF">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<a href="javascript: d.openAll();">功能展开</a> &nbsp;|&nbsp; <a href="javascript: d.closeAll();">功能折叠</a>
+	<hr style="HEIGHT: 2px;COLOR:#BED3DF">
+	<script type="text/javascript">
+     d = new dTree('d');
+		d.add(0,-1,'我的菜单');
+		d.add(1,0,'会员管理','','test','wndMain');
+		d.add(2,0,'信息管理','','test','wndMain');
+		d.add(3,0,'订单管理','','test','wndMain');
+		d.add(4,0,'积分管理','','test','wndMain');
+		d.add(5,0,'厂商管理','','test','wndMain');
+		d.add(6,0,'图片管理','','test','wndMain');
+		d.add(7,0,'文化衫管理','','test','wndMain');
+		d.add(8,0,'管理员管理','','test','wndMain');
+		d.add(9,1,'会员管理','user.do?operation=userlist&pageNum=1','test','wndMain');
+		d.add(10,2,'信息管理','message.do?operation=messagelist&pageNum=1&method=admin','test','wndMain');
+		d.add(11,3,'订单管理','orders.do?operation=orderslist&pageNum=1&method=admin','test','wndMain');
+		d.add(12,4,'积分管理','feedback.do?operation=feedbacklist&pageNum=1','test','wndMain');
+		d.add(13,5,'厂商管理','manufacturersinfo.do?operation=manufacturersinfolist&pageNum=1&method=admin','test','wndMain');
+		d.add(14,6,'图片管理','picremove.do?operation=picremovelist&pageNum=1','test','wndMain');
+		d.add(15,6,'图片举报处理','reportlist.do?operation=reportlist&pageNum=1','test','wndMain');
+		d.add(16,6,'图片推荐','picrecommended.do?operation=picrecommended&pageNum=1','test','wndMain');
+		d.add(17,7,'文化衫管理','shirtedit.do?operation=shirtedit&pageNum=1','test','wndMain');
+		d.add(18,7,'文化衫推荐','skillcomf.do?operation=shirtcommendshow&pageNum=1','test','wndMain');
+		d.add(19,7,'文化衫上传','/diyshirt/diyshirt/DIYUpload.jsp','test','wndMain');
+		d.add(20,8,'管理员管理','admininfo.do?operation=adminlist&pageNum=1','test','wndMain');
+		d.add(21,8,'个人管理','admininfo.do?operation=adminquery&method=show','test','wndMain');
+		d.add(22,0,'退出系统','/diyshirt/index.jsp','test','_top','image/file.gif');
+		document.write(d);
+	</script>
+
+</div>
+
+</body>
+
+</html>
